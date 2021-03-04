@@ -1,0 +1,109 @@
+body
+{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('./images/bg-pattern-top.svg'),url('./images/bg-pattern-bottom.svg');
+    background-size: 70%, 70%;
+    background-position: top 50% left -50%, bottom 130% right -50%;
+    background-repeat: no-repeat;
+    font-family: Kumbh+Sans;
+}
+#box-1 
+{
+width: 300px;
+height: 300px;
+border: 2px transparent;
+position: absolute;
+left: 550px;
+top: 220px;
+border-radius: 7px;
+
+}
+#box-2
+{
+    background-image: url(./images/bg-pattern-card.svg);
+    height: 120px;
+    width: auto;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border: transparent;
+}
+img
+{
+    border: 5px #ffffff solid;
+    border-radius: 50%;
+    position: relative;
+    left: 93px;
+    top: 70px;
+}
+#box-3
+{
+    height: 90px;
+    width: auto;
+    border: transparent;
+    background-color: #ffffff;
+    overflow: hidden;
+   padding-top: 50px;
+}
+.style-1
+{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    text-align: center;
+    font-size:  18px;
+}
+.style-2
+{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    text-align: center;
+    font-size: small;
+}
+#box-4
+{
+    height: auto;
+    width: 300px;
+    background-color: #ffffff;
+    border-top: 1px  hsl(229, 23%, 23%) solid;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+}
+.container
+{
+position: relative;
+flex-direction: column;
+width: 100px;
+color: hsl(229, 23%, 23%);
+padding: 10px 20px;
+line-height: 5px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media(max-width: 375px)
+{
+    body 
+    {
+        background-color: hsl(185, 75%, 39%);
+        background-image: url('./images/bg-pattern-top.svg'),url('./images/bg-pattern-bottom.svg');
+        background-size: 90%, 90%;
+        background-position: top 20% left -290%, bottom 200% right -290%;
+        background-repeat: no-repeat;
+        
+    }
+    #box-1
+    {
+        left: 46px;
+        top: 130px;
+        width: 260px;
+    }
+    img 
+    {
+        left: 5px;
+    }
+    #box-4
+    {
+        width: 260px;
+    }
+}
